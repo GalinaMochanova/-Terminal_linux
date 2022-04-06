@@ -15,3 +15,5 @@
 * Отправка http запроса на сервер 
 * Написание скриптов
 
+---
+Решение задания можно посмотреть в файле [HW_terminal.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal.md)
