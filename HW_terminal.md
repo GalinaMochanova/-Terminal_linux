@@ -57,13 +57,11 @@ Linux terminal(Gitbash)
       
 13) Переместить любые 2 файла, которые вы создали, в любую другую папку
 ``` 
-mv test_1.txt folder_1/test_1.txt
-mv test_2.txt folder_1/test_2.txt
+mv {test_1.txt,test_2.txt) folder_1
 ```
 14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
 ```
-cp test_3.txt folder_2/test_3.txt
-cp test_4.json folder_3/test_4.json
+cp {test_3.txt,test_4.json} folder_2
 ```
 15) Найти файл по имени
  
