@@ -14,6 +14,9 @@
 * Просмотр содержимого длинного файла
 * Отправка http запроса на сервер 
 * Написание скриптов
+* Создание и работа с файлами с помощью команды cat
+* Поиск файлов и пути к ним
+* Работа с командой grep (поиск нужных строк в файлах; поиск,копирование, перемещение и удаление файлов с определенными строками)
 
 ---
-Решение задания можно посмотреть в файле [HW_terminal.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal.md)
+Решение задания можно посмотреть в файле [HW_terminal_1.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal.md) и [HW_terminal_2.md]
