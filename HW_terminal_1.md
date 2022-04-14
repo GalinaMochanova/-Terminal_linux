@@ -105,11 +105,12 @@ http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 ``` 
-cd group_28; 
-mkdir fold_1 fold_2 fold_3; 
-cd fold_1; 
-touch test_1.txt test_2.txt test_3.txt test_4.json test_5.json; 
-mkdir inner_1 inner_2 inner_3; 
-ls -la; 
+#! /bin/bash
+cd group_28
+mkdir fold_1 fold_2 fold_3 
+cd fold_1
+touch test_1.txt test_2.txt test_3.txt test_4.json test_5.json
+mkdir inner_1 inner_2 inner_3 
+ls -la 
 mv {test_1.txt,test_2.txt} inner_1
 ```
