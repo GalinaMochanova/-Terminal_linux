@@ -218,5 +218,5 @@ find . | xargs grep -l "sec" |xargs rm -f
 ```
  40. Просто вывести в терминал строку “Good job!!”
 ```
-echo “Good job!!”
+echo 'Good job!!'
 ```
