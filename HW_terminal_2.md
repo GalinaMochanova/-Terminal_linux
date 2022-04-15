@@ -130,7 +130,7 @@ cd ..
 ```
  18. Вывести содержимое файла tf_3.txt в терминал
 ```
-cat /d/QA/Ksendzov/Homeworks/Terminal/dir_1/inner_dir_1/tf_3.txt
+cat ./inner_dir_1/tf_3.txt
 ```
  19. Найти путь к файлу tf_4.txt
 ```
