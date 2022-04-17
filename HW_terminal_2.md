@@ -202,11 +202,11 @@ mkdir inner_dir_3 | echo 'it was something new' > tf_6.txt
 ```
  36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
 ```
-grep -l -r sec * | xargs mv -t /d/qa/Ksendzov/Homeworks/terminal/dir_1/inner_dir_2
+grep -l -r sec * | xargs mv -t ./inner_dir_2
 ```
  37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
 ```
-grep -l -r sec * | xargs cp -t /d/qa/Ksendzov/homeworks/terminal/dir_1/inner_dir_2
+grep -l -r sec * | xargs cp -t ./inner_dir_2
 ```
  38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл
 ```
