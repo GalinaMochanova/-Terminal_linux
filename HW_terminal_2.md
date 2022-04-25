@@ -202,19 +202,35 @@ mkdir inner_dir_3 | echo 'it was something new' > tf_6.txt
 ```
  36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
 ```
-grep -l -r sec * | xargs mv -t ./inner_dir_2
+grep -lr sec * | xargs mv -t ./inner_dir_2
+```
+ИЛИ    
+```
+mv -v $(grep -lr "sec") ./inner_dir_2
 ```
  37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
 ```
-grep -l -r sec * | xargs cp -t ./inner_dir_2
+grep -lr sec * | xargs cp -t ./inner_dir_2
+```
+ИЛИ   
+```
+cp -v $(grep -lr "sec")
 ```
  38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл
 ```
- grep -r -h sec * | cat > tf_8.txt
+ grep -hr sec * | cat > tf_8.txt
+```
+ИЛИ    
+```
+grep -hr "sec" > tf_8.txt
 ```
  39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”
 ```
 find . | xargs grep -l "sec" |xargs rm -f
+```
+ИЛИ    
+```
+rm $(grep -lr "sec")
 ```
  40. Просто вывести в терминал строку “Good job!!”
 ```
