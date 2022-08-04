@@ -16,7 +16,7 @@
 * Написание скриптов
 * Создание и работа с файлами с помощью команды cat
 * Поиск файлов и пути к ним
-* Работа с командой grep (поиск нужных строк в файлах; поиск,копирование, перемещение и удаление файлов с определенными строками)
+* Работа с командой grep (поиск нужных строк в файлах; поиск, копирование, перемещение и удаление файлов с определенными строками)
 
 ---
-Решение задания можно посмотреть в файлах [HW_terminal_1.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal_1.md) и [HW_terminal_2.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal_2.md)
+Выполнение задания можно посмотреть в файлах [HW_terminal_1.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal_1.md) и [HW_terminal_2.md](https://github.com/GalinaMochanova/Terminal_linux/blob/main/HW_terminal_2.md)
